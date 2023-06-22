@@ -1,0 +1,338 @@
+@font-face {
+  font-family: 'Auto1';
+  src: url('../Fonts/Auto1-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'Auto1';
+  src: url('../Fonts/Auto1-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'midnightkernboy';
+  src: url('../Fonts/midnight_kernboy_bold.otf') format('truetype');
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: 'midnightkernboy';
+  src: url('../Fonts/midnight_kernboy_regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+a{
+    font-family: auto1;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+    font-family: midnightkernboy;
+}
+
+h2{
+    color: #549983;
+    font-size: 30px;
+    font-family: midnightkernboy;
+}
+
+.topheader div p{
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+    text-align: left;
+    font-family: Auto1;
+    font-weight: normal;
+}
+
+li {
+    display: inline;
+    padding-left: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+li a {
+    font-size: 16px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.headertext {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    background-color:rgba(0,0,0,.2);
+}
+
+ul.header {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    padding-top: 0px;
+    margin: 0 auto;
+}
+
+.headermobile{
+    display: none;
+}
+
+.button{
+    background-color:#009C82;
+    color: white;
+    padding: 15px 50px 15px;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: #008E82;
+}
+
+.logo{
+    width: 50%;
+}
+
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+
+section.topheader{
+    min-height: 600px;
+    max-height: 100%;
+    background-image: url(../Content/endresult.gif);
+    background-size: cover;
+}
+
+.topheader div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    flex-direction: column;
+}
+
+section{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-image: url(../Content/Content/Footerback.png);
+    background-size: cover;
+}
+
+p.footer{
+    text-align: center;
+}
+
+footer img{
+    width: 3%;
+}
+
+hr{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.team{
+ width: 100%;
+ padding-top: 50px;
+ padding-bottom: 50px;
+}
+
+.team div img{
+    width: 40%;
+    min-width: 250px;
+}
+
+.team-block{
+    display:flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.greyblock{
+    background: #F7F7F7;
+    max-width: 30%;
+    margin-right: 200px;
+    height: 280px;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.cmgt{
+    width: 100%;
+    background-image: url(../Content/Background_CMGT.png);
+    background-size: cover;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.whiteblock{
+    background: white;
+    max-width: 30%;
+    margin-left: 200px;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.trailer{
+    background-image: url(../Content/CMGTbackgroundrepeat.png);
+    background-size: cover;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+div.conceptblock{
+    margin: 0 auto;
+}
+
+section.concept{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../Content/ConceptBack.png);
+    background-size: cover;
+    height: 600px;
+}
+
+.themaking{
+    background-color: #F7F7F7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../Content/Footerback.png);
+    background-size: cover;
+}
+
+.footerinst img{
+    width: 50px;
+}
+
+nav.mobilemenu{
+    background-color: unset;
+    display: none;
+}
+
+.mobilebutton img{
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .whiteblock{
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 100%;
+    }
+    div.conceptblock{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .greyblock{
+        margin-right: 20px;
+        max-width: 100%;
+        height: 100%;
+    }
+    iframe{
+        overflow: hidden;
+        max-width: 100%;
+    }
+
+    ul.header{
+        display: none;
+    }
+
+    .headermobile{
+
+    }
+    .mobilebutton img{
+        display: unset;
+        height: 50px;
+        padding: 10px;
+    }
+
+    ul.headermobile{
+        display: none;
+    }
+
+    .headermobile li{
+        display: block;
+        padding-left: none;
+        text-align: left;
+        background-color: #009C82;
+        margin-top: -1px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    button{
+        background: none;
+        border: none;
+        display: flex;
+        width: 100%;
+        justify-content: right;
+    }
+    nav.mobilemenu{
+        display: unset;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 285px){
+    section.concept{
+        max-height: 100%;
+    }
+    .whiteblock{
+        height: 100%;
+    }
+    .button{
+        padding: 15px;
+    }
+    div.conceptblock{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .topheader div p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css\CssShowoff.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style type="text/css"> .stretchX {width: 400px;} .stretchXY {width: 200px; height: 300px} </style>
+</head>
+<body>
+<header>
+<nav>
+        <ul>
+            <li> <a href="#top"><img class="logo" src="Content\Logocmgt.png" alt="logo"></a></li>
+        </ul>
+        <ul class="header">
+            <li><a href="#concept">The concept</a></li>
+            <li><a href="#cmgt">CMGT</a></li>
+            <li><a href="#team">The team</a></li>
+            <li><a href="#making">The making off</a></li>
+        </ul>
+</nav>
+<nav class="mobilemenu">
+    <div class="menu-header">
+        <button class="mobilebutton">
+            <img src="Content\Menubutton.png">
+        </button>
+    </div>
+    <ul class="headermobile">
+        <li><a href="#concept">The concept</a></li>
+        <li><a href="#cmgt">CMGT</a></li>
+        <li><a href="#team">The team</a></li>
+        <li><a href="#making">The making off</a></li>
+    </ul>
+</nav>
+</header>
+<main>
+    <section class="topheader" id="top">
+        <div>
+            <h1>Game name</h1>
+            <p class="headertext">Neque porro quisquam est qui dolorem ipsum quia.</p>
+            <br>
+            <a class="button" href="#trailer">Trailer</a>
+        </div>
+    </section>
+    <section class="trailer" id="trailer">
+        <h2>Trailer</h2>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/PyDRmfex7gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    <section class="concept" id="concept">
+        <div class="whiteblock conceptblock">
+            <h2>The concept</h2>
+            <br>
+            <p>This game is an online multiplayer game that is played with 3 people at a time. The players get to choose their individual element/role, their roles are; Artist, Designer and Engineer. The player stays at this role the entire game! After the players made their choice, they needed to make their last choice of a class/weapon. The weapons of choice are; Bow, Sword and Staff. Each weapon has a different playstyle and different abilities.</p>
+        </div>
+    </section>
+    <section class="cmgt" id="cmgt">
+        <div>
+            <div class="whiteblock">
+                <h2>Creative media and game technologies</h2>
+                <br>
+                <p>As the name indicates, CMGT will teach you everything you want to know about creative media and game technologies. In the first year you can experiment with different roles and choose the one that is best suited for you. Depending on your preference you will either move in the direction of interactive media in general or specialize in games.</p>
+                <br><br>
+                <a class="button" href="https://www.saxion.nl/opleidingen/en/fulltime/bachelor/creative-media-and-game-technologies">About CMGT</a>
+            <div>
+        </div>
+    </section>
+    <section class="team" id="team">
+        <div class="team-block">
+            <img src="Content\Theteamtemp.png">
+            <div class="greyblock">
+                <h2>The team</h2>
+                <br>
+                <p>We are a team of CMGT students, passionate about creating games. Our team is made up of 2 engineers (Omair and Koen), 2 artists (Álvaro and Daniel), and 3 designers (Enya, Thomas, and Maureen). This project was the result of our hard work during the last term of our second year. We worked on it for 8 weeks, combining our skills to make something great. We're proud of what we've accomplished!</p>
+            </div>
+        </div>
+    </section>
+    <section class="themaking" id="making">
+        <div class="backimgfooter">
+            <h2>The making off</h2>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PyDRmfex7gQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <hr>
+            <div>
+                <p class="footer">All rights reserved by team Star Platina</p>
+                <br>
+                <a class="footerinst" href="https://www.instagram.com/starplatina_cmgt/"><img src="../Content\5282544_camera_instagram_social media_social network_instagram logo_icon.png"></a>
+            </div>
+        </div>
+    </section>
+</main>
+<script>
+$(document).ready(function() {
+  $(".mobilebutton").click(function() {
+    $(".headermobile").slideToggle();
+  });
+});
+</script>
+</body>
+</html>
