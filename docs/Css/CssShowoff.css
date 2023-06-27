@@ -125,6 +125,7 @@ section.topheader{
     min-height: 600px;
     max-height: 100%;
     background-image: url(../Content/Bannertop.gif);
+    background-position: center;
     background-size: cover;
 }
 
